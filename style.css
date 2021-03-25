@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #AF67E9, #6565E7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card {
+    position: relative;
+    width: 900px;
+    height: 500px;
+    background: #ffffff;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.main-card .bg-img {
+    width: 100%;
+    position: relative;
+    top: -270px;
+    right: 500px;
+}
+
+.main-card .online-img {
+    width: 50%;
+    position: absolute;
+    top: 60px;
+    right: 520px;
+}
